@@ -1,0 +1,35 @@
+{
+  "id": "bd6a61ab-b1a2-4f44-9848-2b85e4e89d4f",
+  "registration_date": "2025-02-14T14:24:38.192Z",
+  "email": "jon.famous@futurefit.ai",
+  "first_name": "John",
+  "last_name": "Famous",
+  "phone_number": "+11111111111",
+  "tags": [
+    "Subscribed",
+    "Eligible to Work in Canada",
+    "Enough Years of Work Exp"
+  ],
+  "postal_code": "11111",
+  "registration_form": [
+    {
+      "uuid": "56a5aed2-ca92-4e7f-8b9e-7c8f6da50357",
+      "question": "To register for the Hub/Upskill Canada program, participants must have at least three years of work or volunteer experience, completed either in or outside of Canada. Please confirm that you meet this requirement. I confirm:",
+      "tags": "Enough Years of Work Exp",
+      "answer": "Yes"
+    },
+    {
+      "uuid": "9a02c5f4-75ca-4abb-a3cd-179512fcb377",
+      "question": "All participants must be legally eligible to work in Canada. Please confirm that you meet this requirement. I confirm:",
+      "tags": "Eligible to Work in Canada",
+      "answer": "Yes"
+    },
+    {
+      "uuid": "92317490-51ea-4dfe-a080-38f78aeab840",
+      "question": "I’d like to receive email communications from Palette Skills about its programs and new opportunities.",
+      "tags": "Subscribed",
+      "answer": "Yes"
+    }
+  ],
+  "signup_link_tag": "User_Link"
+}
