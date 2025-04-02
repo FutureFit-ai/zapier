@@ -1,0 +1,83 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "UserRegistration",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "registration_date": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "email": {
+        "type": "string",
+        "format": "email"
+      },
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "phone_number": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "postal_code": {
+        "type": "string"
+      },
+      "registration_form": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "uuid": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "question": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "string"
+            },
+            "answer": {
+              "type": "string"
+            }
+          },
+          "required": ["uuid", "question", "tags", "answer"]
+        }
+      },
+      "country": {
+        "type": "string"
+      },
+      "region": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "registration_date",
+      "email",
+      "first_name",
+      "last_name",
+      "phone_number",
+      "tags",
+      "postal_code",
+      "registration_form",
+      "Country",
+      "Region",
+      "City"
+    ],
+    "additionalProperties": false
+  }
